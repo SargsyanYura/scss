@@ -1,0 +1,450 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  height: 973px;
+  background-image: url(img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec1 {
+  height: 973px;
+  background-image: url(img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec2 {
+  height: 973px;
+  background-image: url(img/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec3 {
+  height: 973px;
+  background-image: url(img/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec4 {
+  height: 973px;
+  background-image: url(img/5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sec5 {
+  height: 973px;
+  background-image: url(img/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.acolor {
+  color: #ff214f !important;
+  -webkit-animation: section2 !important;
+          animation: section2 !important;
+  font-size: 23px;
+}
+
+@-webkit-keyframes section2 {
+  0% {
+    background-color: #ff214f !important;
+  }
+  50% {
+    background-color: #720017 !important;
+  }
+  100% {
+    background-color: #ff214f !important;
+  }
+}
+
+@keyframes section2 {
+  0% {
+    background-color: #ff214f !important;
+  }
+  50% {
+    background-color: #720017 !important;
+  }
+  100% {
+    background-color: #ff214f !important;
+  }
+}
+.divsection {
+  padding: 87px;
+  background-color: #ff214f;
+  position: relative;
+  top: 680px;
+  -webkit-animation: section 3s infinite;
+          animation: section 3s infinite;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@-webkit-keyframes section {
+  0% {
+    background-color: #ff214f;
+  }
+  50% {
+    background-color: #c8022a;
+  }
+  100% {
+    background-color: #ff214f;
+  }
+}
+
+@keyframes section {
+  0% {
+    background-color: #ff214f;
+  }
+  50% {
+    background-color: #c8022a;
+  }
+  100% {
+    background-color: #ff214f;
+  }
+}
+h4 {
+  font-size: 30px;
+  color: white;
+}
+
+.slack {
+  position: relative;
+  top: 888px;
+  right: 50px;
+}
+
+@media only screen and (max-width: 1600px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -100px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -150px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -200px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -250px;
+  }
+  .divsection {
+    padding: 75px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -300px;
+  }
+  .divsection {
+    padding: 54px;
+    top: 725px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -350px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -400px;
+  }
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  .divsection {
+    padding: 42px;
+    top: 760px;
+  }
+  h4 {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -450px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -400px;
+    height: 700px;
+  }
+  .divsection {
+    padding: 30px;
+    top: 568px;
+  }
+  .slack {
+    top: 600px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .slack {
+    top: 466px;
+    right: -411px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -400px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -400px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -450px;
+  }
+  .slack {
+    right: -281px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    background-position: -500px;
+  }
+}
+#btn {
+  height: 50px;
+  width: 50px;
+  background-color: #ff214f;
+  z-index: 55;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 5px;
+  display: none;
+  background-image: url(img/slaq.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+@-webkit-keyframes section1 {
+  0% {
+    background-color: #ff214f;
+  }
+  50% {
+    background-color: #c8022a;
+  }
+  100% {
+    background-color: #ff214f;
+  }
+}
+
+@keyframes section1 {
+  0% {
+    background-color: #ff214f;
+  }
+  50% {
+    background-color: #c8022a;
+  }
+  100% {
+    background-color: #ff214f;
+  }
+}
+#btn:hover {
+  color: #ff214f;
+  background-color: white;
+}
+
+.button1 {
+  padding: 10px;
+  color: white;
+  background-color: #ff214f;
+  border: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+section {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.active,
+section:first-child {
+  opacity: 1;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.container .position {
+  left: 0 !important;
+}
+.container .side-bar {
+  background-color: rgb(255, 33, 79);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  height: 100vh;
+  width: 350px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: -400px;
+  -webkit-box-shadow: 10px 0 50px rgba(0, 0, 0, 0.3294117647);
+          box-shadow: 10px 0 50px rgba(0, 0, 0, 0.3294117647);
+}
+.container .side-bar .side-bar-brand {
+  margin-bottom: 40px;
+}
+.container .side-bar .side-bar-brand .button {
+  position: relative;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  cursor: pointer;
+}
+.container .side-bar .side-bar-brand .button div {
+  height: 4px;
+  width: 20px;
+  background: #df1818;
+  border-radius: 10px;
+}
+.container .side-bar .side-bar-brand .button div:nth-child(1) {
+  position: relative;
+  top: 4px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.container .side-bar .list-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+.container .side-bar .list-item ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.container .side-bar .list-item ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.container .menu-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.container .menu-btn div {
+  width: 40px;
+  height: 4px;
+  background: #ff214f;
+  margin: 5px;
+}
